@@ -1,1 +1,92 @@
 //
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.upper {
+    background-color: #2481f4;
+    color: white;
+    text-align: end;
+    .container {
+        span {
+            padding: 5px 10px;
+        }
+    }
+}
+header {
+    img {
+        padding: 15px 0;
+    }
+    .flex {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.flex {
+    display: flex;
+    .active {
+        line-height: 60px;
+        border-bottom: solid blue 5px;
+    }
+}
+.jumbo {
+    height: 500px;
+    background-color: #1c1c1c;
+    overflow: hidden;
+}
+main {
+    background-color: #1c1c1c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    section {
+        .container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+.poster {
+    img {
+        width: 180px;
+        height: 180px;
+        margin: 0 15px;
+    }
+    h3 {
+        color: white;
+        width: 180px;
+        height: 100px;
+    }
+    display: inline-block;
+}
+.load {
+    background-color: #2481f4;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 65px;
+    margin: 0 auto;
+}
+.color-b {
+    background-color: #2481f4;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        div {
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        img {
+            width: 70px;
+        }
+    }
+}
