@@ -16,7 +16,7 @@
 
     @yield('mainprods')
 
-    @yield('bluesec')
+    @include('partials.bluesec')
 
     @include('partials.footer')
 
