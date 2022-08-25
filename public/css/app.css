@@ -14,7 +14,6 @@
   color: white;
   text-align: end;
 }
-
 .upper .container span {
   padding: 5px 10px;
 }
@@ -22,7 +21,6 @@
 header img {
   padding: 15px 0;
 }
-
 header .flex {
   justify-content: space-between;
   align-items: center;
@@ -31,7 +29,6 @@ header .flex {
 .flex {
   display: flex;
 }
-
 .flex .active {
   line-height: 130px;
   border-bottom: solid blue 5px;
@@ -48,7 +45,6 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 main section .container {
   display: flex;
   align-items: center;
@@ -58,13 +54,11 @@ main section .container {
 .poster {
   display: inline-block;
 }
-
 .poster img {
   width: 180px;
   height: 180px;
   margin: 0 15px;
 }
-
 .poster h3 {
   color: white;
   width: 180px;
@@ -84,27 +78,25 @@ main section .container {
 
 .color-b {
   background-color: #2481f4;
+  padding-bottom: 20px;
 }
-
 .color-b .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
 }
-
 .color-b .container div {
   display: flex;
   align-items: center;
   color: white;
 }
-
 .color-b .container img {
   width: 70px;
 }
 
 footer {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("../../img/footer-bg.jpg");
   color: white;
   height: 450px;
   overflow: hidden;
@@ -137,3 +129,63 @@ li {
   position: relative;
 }
 
+.poster-blue {
+  background-color: #2481f4;
+  height: 150px;
+  position: relative;
+}
+.poster-blue .single-p {
+  position: absolute;
+  top: -225px;
+  left: 300px;
+}
+
+.col1 {
+  width: 69%;
+}
+
+.col2 {
+  width: 30%;
+}
+
+.price {
+  background-color: #5bba60;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.price .price-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding {
+  padding: 40px 100px;
+}
+
+h1 {
+  padding: 40px 0;
+  color: #2481f4;
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: #bdfda3;
+}
+
+.bet {
+  justify-content: space-between;
+}
+
+.col {
+  width: 50%;
+}
+
+.sect {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  padding: 15px 20px;
+}

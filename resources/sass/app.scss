@@ -75,6 +75,7 @@ main {
 }
 .color-b {
     background-color: #2481f4;
+    padding-bottom: 20px;
     .container {
         display: flex;
         justify-content: space-between;
@@ -91,7 +92,7 @@ main {
     }
 }
 footer {
-    background-image: url('../../public/img/footer-bg.jpg');
+    background-image: url('../../img/footer-bg.jpg');
     color: white;
     height: 450px;
     overflow: hidden;
@@ -119,4 +120,54 @@ li {
     .container {
         position: relative;
     }
+}
+.poster-blue {
+    background-color: #2481f4;
+    height: 150px;
+    position: relative;
+    .single-p {
+        position: absolute;
+        top: -225px;
+        left: 300px;
+    }
+}
+.col1 {
+    width: 69%;
+}
+.col2 {
+    width: 30%;
+}
+.price {
+    background-color: #5bba60;
+    padding: 10px;
+    margin-bottom: 30px;
+    .price-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.padding {
+    padding: 40px 100px;
+}
+h1 {
+    padding: 40px 0;
+    color: #2481f4;
+    font-weight: bold;
+}
+.white {
+    color: white;
+}
+.grey {
+    color: #bdfda3;
+}
+.bet {
+    justify-content: space-between;
+}
+.col {
+    width: 50%;
+}
+.sect {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 15px 20px;
 }

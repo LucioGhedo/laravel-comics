@@ -14,9 +14,9 @@
 
     @include('partials.jumbo')
 
-    @include('partials.products')
+    @yield('mainprods')
 
-    @include('partials.section')
+    @yield('bluesec')
 
     @include('partials.footer')
 
