@@ -14,13 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $comics_array = config('comics');
-
-    $comics_data = [];
-
-    foreach($comics_array as $comic) {
-        $comics_data[] = $comic;
-    }
+    $comics_data = config('comics');
 
     $data = [
         'comics' => $comics_data
